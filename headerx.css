@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    background-size: cover;
+}
+.header{
+   
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.header-text{
+    margin-top: 40px;
+    font-size: 11px;
+    font-family:Bold,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+.header-text:hover{
+    opacity: 1;
+}
+.logo{
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.logo-section{
+    flex: 0.5;
+    margin-left: 60px;
+   
+    
+}
+.middle-section{  
+    flex: 2.5;
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+  
+}
+.end-section{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+.end-section .header-text{
+    margin-top: 43px;
+}
+.menu-logo{
+    width: 17px;
+    margin-top: 41px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+.menu-logo:hover{
+    opacity: 1;
+}
+.image1-container{
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.image-text{
+    margin-top: 60vh;
+    color: white;
+    margin-left: 130px;
+    font-size: 20px;
+    font-family:Bold,Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+h1{
+    font-family:Bold,Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 130px;
+    font-size: 40px;
+    cursor: pointer;
+}
+button{
+    margin-top: 30px;
+    width: 160px;
+    color: white;
+    margin-left: 130px;
+    height: 45px;
+    background: none;
+    border-width: 3px;
+    border-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+   
+}
